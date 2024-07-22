@@ -53,5 +53,5 @@ function loadApp() {
 }
 
 function loadNoAccess() {
-  root.render(<NoAccess />)
+  root.render(<NoAccess />, container)
 }
